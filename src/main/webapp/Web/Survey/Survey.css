@@ -1,0 +1,96 @@
+body{
+    background-color: #eff6fc;
+    background-image: url("surveyImage/sky.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.body {
+    background-color: rgba(7, 54, 87, 0.5);
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+    font-size: 11pt;
+
+    /*Canh giữa*/
+    width: 50%;             /* Đặt một chiều rộng nhất định cho phần tử */
+    margin: 0 auto;         /* Căn giữa phần tử theo chiều ngang */
+
+    /*Đóng khung*/
+    border: 0px solid; /* Đặt viền xung quanh body */
+    padding: 20px; /* Thêm khoảng cách bên trong khung */
+    border-radius: 5px; /* Bo góc */
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng thể */
+}
+.png{
+    max-width: 100%; /* Đảm bảo hình ảnh không quá rộng */
+    height: auto;
+}
+.contact, h1, h2, h3, h4{
+    color: #b5c6ff;
+}
+.a {
+    float: left;
+    width: 9em;
+    margin-bottom: 0.5em;
+}
+input[type="submit"] {
+    background-color: #6586E6; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Khoảng cách bên trong */
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Bo góc */
+    cursor: pointer; /* Con trỏ chuột thành dạng pointer */
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+input[type="submit"]:hover {
+    background-color: darkblue; /* Màu khi hover */
+}
+input[type="text"], input[type="email"], input[type ="date"] {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Bo góc */
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+input[type ="checkbox"] {
+    border: none; /* Bỏ viền */
+    border-radius: 5px; /* Bo góc */
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+select {
+    background-color: ghostwhite; /* Màu nền của select box */
+    color: black; /* Màu chữ */
+    padding: 10px; /* Khoảng cách bên trong */
+    border: none; /* Đường viền */
+    border-radius: 5px; /* Bo tròn các góc */
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+
+/* Thay đổi màu của các tùy chọn */
+option {
+    background-color: white; /* Màu nền của từng tùy chọn */
+    color: black; /* Màu chữ */
+}
+
+/* Thay đổi màu khi hover trên select box */
+select:hover {
+    background-color: lightblue;
+}
+
+/* Thay đổi màu khi hover trên từng option */
+option:hover {
+    background-color: lightgray; /* Màu nền khi hover vào option */
+}
+br {
+    clear: both;
+}
+#submit {
+    margin-left: 0.5em;
+}
+.imageMurach {
+    height: 70px;
+}
+

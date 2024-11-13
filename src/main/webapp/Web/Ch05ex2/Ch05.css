@@ -1,0 +1,39 @@
+*{
+    font-family: "Comic Sans MS", Helvetica, sans-serif;
+}
+body{
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1{
+    color: teal;
+}
+label{
+    float: left;
+    width: 8em;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"]{
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+select{
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br{
+    clear: both;
+}
+input[type="submit"]{
+    padding: 8px 10px;
+    margin-left: 0.5em;
+    background: linear-gradient(90deg, #a7e05f, #12ab97);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background: linear-gradient(90deg, #12ab97, #111);
+}
