@@ -11,7 +11,6 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
-@WebServlet(urlPatterns = { "/Cart" })
 public class Ch07CartServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     @Override
@@ -84,7 +83,7 @@ public class Ch07CartServlet extends HttpServlet {
         }
         System.out.println(action);
         RequestDispatcher dispatcher =
-                this.getServletContext().getRequestDispatcher(url);
+                req.getRequestDispatcher(url);
         dispatcher.forward(req, resp);
     }
     @Override

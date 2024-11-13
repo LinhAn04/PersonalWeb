@@ -4,33 +4,56 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <!--  Email  -->
+
+    <servlet>
+        <servlet-name>EmailExercise</servlet-name>
+        <servlet-class>Email.EmailListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmailExercise</servlet-name>
+        <url-pattern>/email-exercise</url-pattern>
+    </servlet-mapping>
+
     <!--Survey-->
+    <!-- Cart    -->
     <servlet>
-        <servlet-name>SurveyList</servlet-name>
-        <servlet-class>Survey.surveyform.SurveyList</servlet-class>
+        <servlet-name>CartExercise</servlet-name>
+        <servlet-class>Cart.Ch07CartServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>SurveyList</servlet-name>
-        <url-pattern>/emailList</url-pattern>
+        <servlet-name>CartExercise</servlet-name>
+        <url-pattern>/cart-exercise</url-pattern>
     </servlet-mapping>
-    <!--Ch05ex1-->
-    <servlet>
-        <servlet-name>Ch05ex1</servlet-name>
-        <servlet-class>Ch05.ex1.Ch05ex1Servlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Ch05ex1</servlet-name>
-        <url-pattern>/Ch05ex1</url-pattern>
-    </servlet-mapping>
-    <!--Ch05ex2-->
-    <servlet>
-        <servlet-name>Ch05ex2</servlet-name>
-        <servlet-class>Ch05.ex2.Ch05ex2Servlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Ch05ex2</servlet-name>
-        <url-pattern>/Ch05ex2</url-pattern>
-    </servlet-mapping>
+
+
+<!--    <servlet>-->
+<!--        <servlet-name>SurveyList</servlet-name>-->
+<!--        <servlet-class>Survey.surveyform.SurveyList</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>SurveyList</servlet-name>-->
+<!--        <url-pattern>/emailList</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    &lt;!&ndash;Ch05ex1&ndash;&gt;-->
+<!--    <servlet>-->
+<!--        <servlet-name>Ch05ex1</servlet-name>-->
+<!--        <servlet-class>Ch05.ex1.Ch05ex1Servlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>Ch05ex1</servlet-name>-->
+<!--        <url-pattern>/Ch05ex1</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    &lt;!&ndash;Ch05ex2&ndash;&gt;-->
+<!--    <servlet>-->
+<!--        <servlet-name>Ch05ex2</servlet-name>-->
+<!--        <servlet-class>Ch05.ex2.Ch05ex2Servlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>Ch05ex2</servlet-name>-->
+<!--        <url-pattern>/Ch05ex2</url-pattern>-->
+<!--    </servlet-mapping>-->
 
 
     <session-config>
