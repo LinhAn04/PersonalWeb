@@ -792,3 +792,12 @@
 0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:44:05 +0700] "POST /WebPersonalFinal/email HTTP/1.1" 200 798
 0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:47:44 +0700] "GET /WebPersonalFinal/Web/Ch05ex1/Ch05ex1View.jsp HTTP/1.1" 200 826
 0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:47:44 +0700] "GET /WebPersonalFinal/Web/Ch05ex1/Ch05.css HTTP/1.1" 200 642
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:53:10 +0700] "GET /WebPersonalFinal HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:53:10 +0700] "GET /Web/image/face.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:57:45 +0700] "GET /WebPersonalFinal HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:57:45 +0700] "GET /WebPersonalFinal/ HTTP/1.1" 200 4989
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:57:45 +0700] "GET /image/me.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:57:45 +0700] "GET /Web/image/face.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:57:52 +0700] "GET /WebPersonalFinal/Web/email/emailView.jsp HTTP/1.1" 200 798
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:57:55 +0700] "POST /WebPersonalFinal/email HTTP/1.1" 200 754
+0:0:0:0:0:0:0:1 - - [13/Nov/2024:17:57:56 +0700] "POST /WebPersonalFinal/email HTTP/1.1" 200 798
