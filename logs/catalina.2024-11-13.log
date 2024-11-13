@@ -6700,6 +6700,7 @@
 13-Nov-2024 21:58:23.796 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 13-Nov-2024 21:58:23.812 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 13-Nov-2024 21:58:23.828 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+<<<<<<< HEAD
 13-Nov-2024 23:02:20.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
 13-Nov-2024 23:02:20.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
 13-Nov-2024 23:02:20.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
@@ -6786,3 +6787,5 @@
 13-Nov-2024 23:32:12.555 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 13-Nov-2024 23:32:12.564 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 13-Nov-2024 23:32:12.583 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+=======
+>>>>>>> fa334c4d5f77f49905995b26c5c0f4a5761024bd
