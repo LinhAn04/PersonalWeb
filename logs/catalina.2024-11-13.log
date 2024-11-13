@@ -5861,3 +5861,128 @@
 13-Nov-2024 15:43:50.441 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 13-Nov-2024 15:43:50.462 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 13-Nov-2024 15:43:50.473 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:14.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+13-Nov-2024 16:01:14.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+13-Nov-2024 16:01:14.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+13-Nov-2024 16:01:14.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Nov-2024 16:01:14.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2024 16:01:14.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2024 16:01:14.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+13-Nov-2024 16:01:14.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+13-Nov-2024 16:01:14.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2024 16:01:14.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+13-Nov-2024 16:01:14.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+13-Nov-2024 16:01:14.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2024 16:01:14.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2024 16:01:14.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2024 16:01:14.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2024 16:01:14.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2024 16:01:14.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+13-Nov-2024 16:01:14.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+13-Nov-2024 16:01:14.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+13-Nov-2024 16:01:14.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+13-Nov-2024 16:01:14.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2024 16:01:14.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=56660:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+13-Nov-2024 16:01:14.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2024 16:01:14.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+13-Nov-2024 16:01:14.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+13-Nov-2024 16:01:14.411 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+13-Nov-2024 16:01:14.420 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+13-Nov-2024 16:01:14.892 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:14.917 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [806] milliseconds
+13-Nov-2024 16:01:14.995 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2024 16:01:14.997 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+13-Nov-2024 16:01:15.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+13-Nov-2024 16:01:17.939 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+13-Nov-2024 16:01:17.940 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+13-Nov-2024 16:01:17.940 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+13-Nov-2024 16:01:18.143 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2024 16:01:18.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [3,269] ms
+13-Nov-2024 16:01:18.285 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:18.317 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3397] milliseconds
+13-Nov-2024 16:01:43.259 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:43.279 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2024 16:01:43.290 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:43.295 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:45.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+13-Nov-2024 16:01:45.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+13-Nov-2024 16:01:45.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+13-Nov-2024 16:01:45.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Nov-2024 16:01:45.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2024 16:01:45.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2024 16:01:45.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+13-Nov-2024 16:01:45.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+13-Nov-2024 16:01:45.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2024 16:01:45.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+13-Nov-2024 16:01:45.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+13-Nov-2024 16:01:45.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2024 16:01:45.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2024 16:01:45.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2024 16:01:45.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2024 16:01:45.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2024 16:01:45.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+13-Nov-2024 16:01:45.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+13-Nov-2024 16:01:45.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+13-Nov-2024 16:01:45.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+13-Nov-2024 16:01:45.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2024 16:01:45.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=56687:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+13-Nov-2024 16:01:45.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2024 16:01:45.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+13-Nov-2024 16:01:45.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+13-Nov-2024 16:01:45.746 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+13-Nov-2024 16:01:45.753 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+13-Nov-2024 16:01:46.167 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:46.188 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [742] milliseconds
+13-Nov-2024 16:01:46.266 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2024 16:01:46.266 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+13-Nov-2024 16:01:46.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+13-Nov-2024 16:01:48.651 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+13-Nov-2024 16:01:48.651 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+13-Nov-2024 16:01:48.651 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+13-Nov-2024 16:01:48.835 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2024 16:01:48.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [2,653] ms
+13-Nov-2024 16:01:48.966 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:48.998 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2807] milliseconds
+13-Nov-2024 16:01:59.423 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:59.436 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Nov-2024 16:01:59.451 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:01:59.471 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:20:37.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+13-Nov-2024 16:20:37.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+13-Nov-2024 16:20:37.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+13-Nov-2024 16:20:37.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Nov-2024 16:20:37.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2024 16:20:37.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2024 16:20:37.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+13-Nov-2024 16:20:37.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+13-Nov-2024 16:20:37.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2024 16:20:37.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+13-Nov-2024 16:20:37.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+13-Nov-2024 16:20:37.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Nov-2024 16:20:37.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Nov-2024 16:20:37.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Nov-2024 16:20:37.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Nov-2024 16:20:37.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Nov-2024 16:20:37.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+13-Nov-2024 16:20:37.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+13-Nov-2024 16:20:37.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+13-Nov-2024 16:20:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+13-Nov-2024 16:20:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2024 16:20:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52552:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+13-Nov-2024 16:20:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Nov-2024 16:20:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+13-Nov-2024 16:20:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+13-Nov-2024 16:20:37.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+13-Nov-2024 16:20:37.638 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+13-Nov-2024 16:20:38.072 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:20:38.095 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [756] milliseconds
+13-Nov-2024 16:20:38.160 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2024 16:20:38.160 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+13-Nov-2024 16:20:38.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+13-Nov-2024 16:20:40.824 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+13-Nov-2024 16:20:40.825 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+13-Nov-2024 16:20:40.825 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+13-Nov-2024 16:20:41.020 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2024 16:20:41.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [2,977] ms
+13-Nov-2024 16:20:41.156 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2024 16:20:41.189 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3091] milliseconds
