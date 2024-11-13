@@ -8,7 +8,7 @@
 <body>
 <h1>Join our email list</h1>
 <p>To join our email list, enter your name and email address below.</p>
-
+<%--${pageContext.request.contextPath}--%>
 <form id="myForm" action="${pageContext.request.contextPath}/Ch06ex1">
     <label>Email:</label>
     <input type="email" name="email" required><br>

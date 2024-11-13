@@ -36,10 +36,10 @@ public class Ch06ex1Servlet extends HttpServlet {
             url = "/Web/Ch06ex1/Ch06ex1Thanks.jsp";   // the "thanks" page
         }
         //Chuyển trang
-//        RequestDispatcher dispatcher =
-//                this.getServletContext().getRequestDispatcher(url);
-//        dispatcher.forward(req, resp);
-        resp.sendRedirect(req.getContextPath() + url);
+        RequestDispatcher dispatcher =
+                this.getServletContext().getRequestDispatcher(url);
+        dispatcher.forward(req, resp);
+//        resp.sendRedirect(req.getContextPath() + url);
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)

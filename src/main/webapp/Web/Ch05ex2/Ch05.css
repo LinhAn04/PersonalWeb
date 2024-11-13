@@ -26,7 +26,7 @@ select{
 br{
     clear: both;
 }
-input[type="submit"]{
+input[type="submit"], .button{
     padding: 8px 10px;
     margin-left: 0.5em;
     background: linear-gradient(90deg, #a7e05f, #12ab97);
@@ -34,6 +34,6 @@ input[type="submit"]{
     border: none;
     border-radius: 5px;
 }
-input[type="submit"]:hover{
+input[type="submit"]:hover, .button:hover{
     background: linear-gradient(90deg, #12ab97, #111);
 }
