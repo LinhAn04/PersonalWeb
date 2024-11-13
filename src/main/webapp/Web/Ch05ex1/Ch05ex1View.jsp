@@ -13,7 +13,7 @@
 <p>To join our email list, enter your name and email address below.</p>
 <%--<p class="mess"><i>${message}</i></p>--%>
 
-<form action="${pageContext.request.contextPath}/Ch05ex1" method="get">
+<form action="Ch05ex1" method="get">
   <input type="hidden" name="action" value="add">
   <label>Email:</label>
   <%--  Có "require thì tự động bắt buộc phải điền field đó--%>

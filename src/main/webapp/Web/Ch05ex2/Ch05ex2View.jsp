@@ -12,7 +12,7 @@
 <h1>Join our email list</h1>
 <p>To join our email list, enter your name and email address below.</p>
 
-<form id="myForm" action="${pageContext.request.contextPath}/Ch05ex2">
+<form id="myForm" action="Ch05ex2">
     <label>Email:</label>
     <input type="email" name="email" required><br>
     <label>First Name:</label>

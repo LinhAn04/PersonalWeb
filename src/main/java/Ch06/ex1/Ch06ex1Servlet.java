@@ -9,7 +9,6 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(urlPatterns = { "/Ch06ex1" })
 public class Ch06ex1Servlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     @Override
