@@ -10,7 +10,6 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(urlPatterns = { "/email" })
 public class EmailListServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     @Override
@@ -38,7 +37,7 @@ public class EmailListServlet extends HttpServlet {
         }
         //Chuyển trang
         RequestDispatcher dispatcher =
-                this.getServletContext().getRequestDispatcher(url);
+                req.getRequestDispatcher(url);
         dispatcher.forward(req, resp);
     }
     @Override

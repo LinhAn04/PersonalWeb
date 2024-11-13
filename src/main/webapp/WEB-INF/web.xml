@@ -31,7 +31,15 @@
         <servlet-name>Ch05ex2</servlet-name>
         <url-pattern>/Ch05ex2</url-pattern>
     </servlet-mapping>
-
+    <!--Email-->
+    <servlet>
+        <servlet-name>EmailEx</servlet-name>
+        <servlet-class>Email.EmailListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmailEx</servlet-name>
+        <url-pattern>/email-exercise</url-pattern>
+    </servlet-mapping>
 
     <session-config>
         <session-timeout>30</session-timeout>
