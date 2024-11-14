@@ -21,3 +21,16 @@ td, th {
 tr:nth-child(even) {
     /*background-color: #dddddd;*/
 }
+
+.btnAdd, input[type="submit"]{
+    padding: 8px 10px;
+    margin-left: 0.5em;
+    background: linear-gradient(90deg, #a7e05f, #12ab97);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnAdd:hover, input[type="submit"]:hover{
+    background: linear-gradient(90deg, #12ab97, #111);
+}

@@ -12,7 +12,7 @@
     <img src="${pageContext.request.contextPath}/Web/Survey/surveyImage/murach.png" height="100px" class="imageMurach">
   </div>
   <!-- header 1: Survey -->
-  <form action="survey" method="post">
+  <form action="surveyEx" method="post">
   <!-- header 1: Survey -->
     <div>
       <h1>Survey</h1>

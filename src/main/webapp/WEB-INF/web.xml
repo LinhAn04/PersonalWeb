@@ -103,12 +103,12 @@
     </servlet-mapping>
     <!--Survey-->
     <servlet>
-        <servlet-name>Survey</servlet-name>
+        <servlet-name>SurveyList</servlet-name>
         <servlet-class>Survey.surveyform.SurveyList</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Survey</servlet-name>
-        <url-pattern>/survey</url-pattern>
+        <servlet-name>SurveyList</servlet-name>
+        <url-pattern>/surveyEx</url-pattern>
     </servlet-mapping>
     <!--Cart-->
     <servlet>
