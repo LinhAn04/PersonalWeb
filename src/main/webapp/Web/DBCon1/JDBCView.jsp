@@ -12,7 +12,7 @@
 <p>Enter and SQL statement and click the Execute button.</p>
 <p><b>SQL statement:</b></p>
 
-<form action="${pageContext.request.contextPath}/sqlGateway" method="get">
+<form action="SQLGateway" method="get">
   <textarea name="sqlStatement" cols="60" rows="8">
     ${sqlStatement}
   </textarea>

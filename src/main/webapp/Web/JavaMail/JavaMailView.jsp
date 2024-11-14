@@ -5,7 +5,7 @@
 <h1>Join our email list</h1>
 <p>To join our email list, enter your name and
     email address below.</p>
-<form action="${pageContext.request.contextPath}/JavaMail" method="get">
+<form action="javaMail" method="get">
     <input type="hidden" name="action" value="add">
 
     <label>Email:</label>

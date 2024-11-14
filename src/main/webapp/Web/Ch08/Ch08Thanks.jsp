@@ -17,7 +17,7 @@
     button in your browser or the Return button shown
     below.</p>
 
-<form action="${pageContext.request.contextPath}/Ch08" method="post">
+<form action="Ch08ex1" method="post">
     <input type="hidden" name="action" value="join">
     <input type="submit" value="Return">
 </form>

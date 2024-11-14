@@ -7,7 +7,6 @@ import jakarta.servlet.http.*;
 
 import java.io.IOException;
 
-@WebServlet(urlPatterns = { "/Ch09" })
 public class DownloadServlet extends HttpServlet {
     public DownloadServlet() {
     }

@@ -31,7 +31,69 @@
         <servlet-name>Ch06Ex2</servlet-name>
         <url-pattern>/Ch06ex2</url-pattern>
     </servlet-mapping>
+    <!--Ch08-->
+    <servlet>
+        <servlet-name>Ch08Ex1</servlet-name>
+        <servlet-class>Ch08.EmailListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ch08Ex1</servlet-name>
+        <url-pattern>/Ch08ex1</url-pattern>
+    </servlet-mapping>
+    <!--Ch09-->
+    <servlet>
+        <servlet-name>Ch09Ex1</servlet-name>
+        <servlet-class>Ch09.DownloadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ch09Ex1</servlet-name>
+        <url-pattern>/Ch09ex1</url-pattern>
+    </servlet-mapping>
+    <!--JDBCCon1-->
+    <servlet>
+        <servlet-name>JDBCCon1</servlet-name>
+        <servlet-class>DBCon1.sql</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JDBCCon1</servlet-name>
+        <url-pattern>/SQLGateway</url-pattern>
+    </servlet-mapping>
+    <!--JDBCCon2-->
+    <servlet>
+        <servlet-name>JDBCCon2</servlet-name>
+        <servlet-class>DBCon2.emailList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JDBCCon2</servlet-name>
+        <url-pattern>/DBCon2</url-pattern>
+    </servlet-mapping>
+    <!--javaMail-->
+    <servlet>
+        <servlet-name>JavaMail</servlet-name>
+        <servlet-class>JavaMail.EmailListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JavaMail</servlet-name>
+        <url-pattern>/javaMail</url-pattern>
+    </servlet-mapping>
+    <!--JPA-->
+    <servlet>
+        <servlet-name>JPA</servlet-name>
+        <servlet-class>JPA.emailList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JPA</servlet-name>
+        <url-pattern>/jpa</url-pattern>
+    </servlet-mapping>
     <!--Survey-->
+    <servlet>
+        <servlet-name>Survey</servlet-name>
+        <servlet-class>Survey.surveyform.SurveyList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Survey</servlet-name>
+        <url-pattern>/survey</url-pattern>
+    </servlet-mapping>
     <!--Cart-->
     <servlet>
         <servlet-name>CartExercise</servlet-name>

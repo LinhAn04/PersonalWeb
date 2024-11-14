@@ -10,7 +10,6 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.*;
 
-@WebServlet(urlPatterns = { "/sqlGateway" })
 public class sql extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res)

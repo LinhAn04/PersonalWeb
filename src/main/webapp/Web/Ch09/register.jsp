@@ -14,7 +14,7 @@
     address below. Then, click on the Submit button.</p>
 
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
-<form action="${pageContext.request.contextPath}/Ch09" method="post">
+<form action="Ch09ex1" method="post">
     <input type="hidden" name="action" value="registerUser">
     <label class="pad_top">Email:</label>
     <input type="email" name="email" value="${user.email}"><br>

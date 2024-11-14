@@ -8,7 +8,6 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(urlPatterns = { "/DBCon2" })
 public class emailList extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res)
