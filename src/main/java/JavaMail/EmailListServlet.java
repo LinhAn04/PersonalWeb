@@ -1,6 +1,7 @@
 package JavaMail;
 
 import jakarta.mail.MessagingException;
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -75,8 +76,9 @@ public class EmailListServlet extends HttpServlet {
             }
             url = "/Web/JavaMail/JavaMailThanks.jsp";
         }
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
+        //Chuyển trang
+        RequestDispatcher dispatcher =
+                request.getRequestDispatcher(url);
+        dispatcher.forward(request, response);
     }
 }

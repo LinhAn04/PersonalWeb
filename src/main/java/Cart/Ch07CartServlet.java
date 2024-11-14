@@ -82,6 +82,7 @@ public class Ch07CartServlet extends HttpServlet {
             url = "/Web/Cart/Ch07CartView.jsp";
         }
         System.out.println(action);
+        //Chuyển trang
         RequestDispatcher dispatcher =
                 req.getRequestDispatcher(url);
         dispatcher.forward(req, resp);

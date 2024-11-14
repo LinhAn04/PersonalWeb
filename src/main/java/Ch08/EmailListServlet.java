@@ -1,5 +1,6 @@
 package Ch08;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -61,9 +62,9 @@ public class EmailListServlet extends HttpServlet {
 
         req.setAttribute("currentDate", formattedDate);
 
-        // forward request and response objects to specified URL
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(req, resp);
+        //Chuyển trang
+        RequestDispatcher dispatcher =
+                req.getRequestDispatcher(url);
+        dispatcher.forward(req, resp);
     }
 }

@@ -1,5 +1,6 @@
 package JPA;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -42,8 +43,9 @@ public class emailList extends HttpServlet {
             req.setAttribute("user",user);
             req.setAttribute("message",message);
         }
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(req, res);
+        //Chuyển trang
+        RequestDispatcher dispatcher =
+                req.getRequestDispatcher(url);
+        dispatcher.forward(req, res);
     }
 }

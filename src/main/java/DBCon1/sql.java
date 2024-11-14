@@ -1,5 +1,6 @@
 package DBCon1;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -77,9 +78,11 @@ public class sql extends HttpServlet {
         session.setAttribute("sqlStatement", sqlStatement);
 
         String url = "/Web/DBCon1/JDBCView.jsp";
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(req, res);
+
+        //Chuyển trang
+        RequestDispatcher dispatcher =
+                req.getRequestDispatcher(url);
+        dispatcher.forward(req, res);
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)

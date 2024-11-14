@@ -1,5 +1,6 @@
 package Survey.surveyform;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -53,9 +54,9 @@ public class SurveyList extends HttpServlet {
             url = "/Web/Survey/surveyInfor.jsp";   // the "thanks" page
         }
 
-        // forward request and response objects to specified URL
-        getServletContext()
-                .getRequestDispatcher(url)
-                .forward(req, resp);
+        //Chuyển trang
+        RequestDispatcher dispatcher =
+                req.getRequestDispatcher(url);
+        dispatcher.forward(req, resp);
     }
 }

@@ -45,7 +45,7 @@ public class Ch06ex2Servlet extends HttpServlet {
         }
         //Chuyển trang
         RequestDispatcher dispatcher =
-                this.getServletContext().getRequestDispatcher(url);
+                req.getRequestDispatcher(url);
         dispatcher.forward(req, resp);
     }
     @Override
