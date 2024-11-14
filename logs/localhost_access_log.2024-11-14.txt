@@ -106,3 +106,12 @@
 0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:05:58 +0700] "GET /WebPersonalFinal/email-exercise HTTP/1.1" 404 613
 0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:05:58 +0700] "GET /WebPersonalFinal/error.css HTTP/1.1" 200 1301
 0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:05:59 +0700] "GET /WebPersonalFinal/background.jpg HTTP/1.1" 200 1460734
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:12:50 +0700] "GET /WebPersonalFinal HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:12:50 +0700] "GET /WebPersonalFinal/ HTTP/1.1" 200 4768
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:12:51 +0700] "GET /Web/image/face.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:12:54 +0700] "GET /WebPersonalFinal/emailEx HTTP/1.1" 200 782
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:12:57 +0700] "POST /WebPersonalFinal/emailEx HTTP/1.1" 200 754
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:12:58 +0700] "POST /WebPersonalFinal/emailEx HTTP/1.1" 200 782
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:15:01 +0700] "GET /WebPersonalFinal/Ch06ex1 HTTP/1.1" 200 1437
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:15:04 +0700] "GET /WebPersonalFinal/Ch06ex1?email=lehoanglinhan04%40gmail.com&firstName=Le&lastName=An&action=add&method=GET HTTP/1.1" 200 1536
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:08:15:05 +0700] "GET /WebPersonalFinal/Ch06ex1?method=GET&action=join HTTP/1.1" 200 1437
