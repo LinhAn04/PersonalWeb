@@ -10,3 +10,9 @@
 0:0:0:0:0:0:0:1 - - [14/Nov/2024:06:43:26 +0700] "POST /WebPersonalFinal/emailEx HTTP/1.1" 200 782
 0:0:0:0:0:0:0:1 - - [14/Nov/2024:06:47:46 +0700] "GET /WebPersonalFinal HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [14/Nov/2024:06:47:46 +0700] "GET /Web/image/face.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:07:06:10 +0700] "GET /WebPersonalFinal HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:07:06:10 +0700] "GET /Web/image/face.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:07:06:18 +0700] "GET /WebPersonalFinal/Web/Ch05ex2/Ch05ex2View.jsp HTTP/1.1" 200 1212
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:07:06:18 +0700] "GET /WebPersonalFinal/Web/Ch05ex2/Ch05.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:07:06:22 +0700] "GET /WebPersonalFinal/Web/Ch05ex2/Ch05ex2?email=lehoanglinhan04%40gmail.com&firstName=Le&lastName=An&action=add&method=GET HTTP/1.1" 404 800
+0:0:0:0:0:0:0:1 - - [14/Nov/2024:07:06:30 +0700] "GET /WebPersonalFinal/email-exercise HTTP/1.1" 404 787

@@ -4,7 +4,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
-
     <!--Email-->
     <servlet>
         <servlet-name>EmailEx</servlet-name>
@@ -13,6 +12,23 @@
     <servlet-mapping>
         <servlet-name>EmailEx</servlet-name>
         <url-pattern>/emailEx</url-pattern>
+    </servlet-mapping>
+    <!--Ch06-->
+    <servlet>
+        <servlet-name>Ch05Ex1</servlet-name>
+        <servlet-class>Ch05.ex1.Ch05ex1Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ch05Ex1</servlet-name>
+        <url-pattern>/Ch05ex1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Ch05Ex2</servlet-name>
+        <servlet-class>Ch05.ex2.Ch05ex2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ch05Ex2</servlet-name>
+        <url-pattern>/Ch05x2</url-pattern>
     </servlet-mapping>
     <!--Ch06-->
     <servlet>
