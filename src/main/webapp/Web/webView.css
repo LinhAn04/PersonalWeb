@@ -193,6 +193,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    width: 100%;
 }
 
 footer p {
@@ -280,50 +281,44 @@ img {
     }
 
     .projectEx {
-        width: 90%; /* Ensure project items take up most of the screen */
+        width: 100%;  /* Đảm bảo projectEx chiếm toàn bộ chiều rộng */
         height: auto;
-        padding: 10px; /* Reduce padding to save space */
+        max-width: 350px;  /* Giới hạn chiều rộng tối đa của projectEx */
+        padding: 10px;
+        margin: 10px 0;  /* Tạo khoảng cách giữa các phần tử */
     }
 
     /* Hero Section */
     .hero h1 {
-        font-size: 2em; /* Reduce the font size */
+        font-size: 2em;  /* Giảm kích thước font */
+        margin-bottom: 10px;
     }
 
     .hero p {
-        font-size: 1em; /* Reduce the font size */
-    }
-
-    /* Buttons */
-    .btnProject, .btnMyProjects {
-        font-size: 1em; /* Reduce button text size */
-        padding: 8px 16px; /* Adjust padding */
-    }
-
-    /* Image Styling */
-    .MyPic {
-        width: 100%; /* Ensure image fits the screen */
-        max-width: 200px;
+        font-size: 1em;  /* Giảm kích thước font */
     }
 
     /* Footer */
+    footer {
+        padding: 10px 0;  /* Giảm padding footer */
+    }
+
     footer .social-icons {
-        flex-direction: column; /* Stack social icons vertically */
+        flex-direction: column;  /* Chuyển social icons thành cột */
         gap: 15px;
     }
 
     footer .social-icons a {
-        font-size: 1.2em; /* Reduce icon size */
+        font-size: 1.2em;  /* Giảm kích thước biểu tượng xã hội */
     }
 
     /* General Layout Adjustments */
     .container {
-        width: 100%;
-        padding: 15px;
+        padding: 10px;  /* Điều chỉnh padding container */
     }
 
     .headerBar ul {
-        flex-direction: column; /* Stack header items vertically */
+        flex-direction: column;  /* Xếp các mục của header thành cột */
     }
 
     .headerBar ul li {
