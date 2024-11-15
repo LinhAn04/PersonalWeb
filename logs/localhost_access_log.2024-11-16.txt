@@ -194,3 +194,16 @@
 0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:37:43 +0700] "POST /WebPersonalFinal/DBCon2 HTTP/1.1" 200 978
 0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:37:48 +0700] "POST /WebPersonalFinal/DBCon2 HTTP/1.1" 200 999
 0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:37:55 +0700] "GET /WebPersonalFinal/DBCon2 HTTP/1.1" 200 978
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:40 +0700] "GET /WebPersonalFinal HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:40 +0700] "GET /WebPersonalFinal/ HTTP/1.1" 200 4565
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:40 +0700] "GET /WebPersonalFinal/Web/webView.css HTTP/1.1" 200 4120
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:40 +0700] "GET /WebPersonalFinal/Web/image/face.png HTTP/1.1" 200 4533
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:40 +0700] "GET /WebPersonalFinal/Web/image/me.png HTTP/1.1" 200 114311
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:41 +0700] "GET /WebPersonalFinal/Web/image/twitter.png HTTP/1.1" 200 16380
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:41 +0700] "GET /WebPersonalFinal/Web/image/instagram.png HTTP/1.1" 200 20416
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:41 +0700] "GET /WebPersonalFinal/Web/image/phone.png HTTP/1.1" 200 12162
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:41 +0700] "GET /WebPersonalFinal/Web/image/pic4.jpg HTTP/1.1" 200 231842
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:41 +0700] "GET /Web/image/face.png HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:41 +0700] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:44 +0700] "GET /WebPersonalFinal/DBCon2 HTTP/1.1" 200 978
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:03:44:48 +0700] "POST /WebPersonalFinal/DBCon2 HTTP/1.1" 200 1080
