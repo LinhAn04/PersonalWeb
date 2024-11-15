@@ -67,10 +67,14 @@ public class ConnectionPool {
     public Connection getConnection() {
         if (dataSource == null) {
             System.out.println("DataSource is not initialized.");
-            return null;
+            return null;  // Nếu dataSource là null, trả về null
         }
         try {
-            return dataSource.getConnection();
+            Connection conn = dataSource.getConnection();
+            if (conn == null) {
+                System.out.println("Failed to get connection from DataSource.");
+            }
+            return conn;
         } catch (SQLException e) {
             System.out.println("Error obtaining connection: " + e.getMessage());
             e.printStackTrace();
