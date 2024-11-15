@@ -9,10 +9,10 @@
 
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
-      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/JDBC_Ch11"/>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://mysql-26a3e4b3-lehoanglinhan04-40e3.d.aivencloud.com:28833/jdbc_ch11?autoReconnect=true"/>
       <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-      <property name="jakarta.persistence.jdbc.user" value="root"/>
-      <property name="jakarta.persistence.jdbc.password" value="01102004"/>
+      <property name="jakarta.persistence.jdbc.user" value="avnadmin"/>
+      <property name="jakarta.persistence.jdbc.password" value="AVNS_OTp-IRMeLkE16zRhHEm"/>
       <property name="jakarta.persistence.schema-generation.database.action" value="create"/>
     </properties>
 

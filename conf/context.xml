@@ -28,10 +28,10 @@
     <!--
     <Manager pathname="SESSIONS.ser" />
     -->
-    <Resource name="jdbc/JDBC_Ch11" auth="Container"
+    <Resource name="jdbc/jdbc_ch11" auth="Container"
               driverClassName="com.mysql.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/JDBC_Ch11?autoReconnect=true"
-              username="root" password="01102004"
+              url="jdbc:mysql://mysql-26a3e4b3-lehoanglinhan04-40e3.d.aivencloud.com:28833/jdbc_ch11?autoReconnect=true"
+              username="avnadmin" password="AVNS_OTp-IRMeLkE16zRhHEm"
               maxActive="100" maxIdle="30" maxWait="10000"
               logAbandoned="true" removeAbandoned="true"
               removeAbandonedTimeout="60" type="javax.sql.DataSource" />

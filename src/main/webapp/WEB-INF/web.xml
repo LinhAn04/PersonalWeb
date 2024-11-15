@@ -56,15 +56,6 @@
         <servlet-name>Ch08Ex1</servlet-name>
         <url-pattern>/Ch08ex1</url-pattern>
     </servlet-mapping>
-    <!--Ch09-->
-    <servlet>
-        <servlet-name>Ch09Ex1</servlet-name>
-        <servlet-class>Ch09.DownloadServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Ch09Ex1</servlet-name>
-        <url-pattern>/Ch09ex1</url-pattern>
-    </servlet-mapping>
     <!--JDBCCon1-->
     <servlet>
         <servlet-name>JDBCCon1</servlet-name>

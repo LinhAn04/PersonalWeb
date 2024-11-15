@@ -48,4 +48,9 @@ public class emailList extends HttpServlet {
                 req.getRequestDispatcher(url);
         dispatcher.forward(req, res);
     }
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse res)
+            throws ServletException, IOException {
+        doPost(req, res);
+    }
 }

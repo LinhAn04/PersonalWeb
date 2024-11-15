@@ -14,7 +14,7 @@ public class ConnectionPool {
         try{
             InitialContext ic = new InitialContext();
             dataSource = (DataSource)
-                    ic.lookup("java:/comp/env/jdbc/JDBC_Ch11");
+                    ic.lookup("java:/comp/env/jdbc/jdbc_ch11");
         } catch (NamingException e) {
             System.out.println(e);
         }

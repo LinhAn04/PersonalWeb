@@ -1,0 +1,673 @@
+16-Nov-2024 01:25:56.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 01:25:56.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 01:25:56.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:25:56.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 01:25:56.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 01:25:56.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=54750:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 01:25:56.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 01:25:56.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 01:25:56.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 01:25:56.391 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 01:25:56.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 01:25:56.799 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:25:56.815 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [764] milliseconds
+16-Nov-2024 01:25:56.869 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 01:25:56.869 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 01:25:56.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 01:25:59.030 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 01:25:59.031 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 01:25:59.031 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 01:25:59.095 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 01:25:59.157 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [2,276] ms
+16-Nov-2024 01:25:59.162 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:25:59.181 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2363] milliseconds
+16-Nov-2024 01:44:10.486 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:44:10.492 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 01:44:10.505 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:44:10.514 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:51:06.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 01:51:06.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:51:06.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:51:06.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 01:51:06.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 01:51:06.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 01:51:06.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 01:51:06.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 01:51:06.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:51:06.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:51:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 01:51:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 01:51:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 01:51:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55354:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 01:51:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 01:51:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 01:51:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 01:51:06.630 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 01:51:06.636 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 01:51:06.930 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:51:06.954 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [505] milliseconds
+16-Nov-2024 01:51:07.005 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 01:51:07.007 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 01:51:07.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 01:51:08.753 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 01:51:08.753 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 01:51:08.753 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 01:51:08.817 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 01:51:08.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,857] ms
+16-Nov-2024 01:51:08.881 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:51:08.910 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1953] milliseconds
+16-Nov-2024 01:51:30.749 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:51:30.766 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 01:51:30.782 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:51:30.801 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:54:23.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 01:54:23.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 01:54:23.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:54:23.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:54:23.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 01:54:23.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55468:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 01:54:23.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 01:54:23.542 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 01:54:23.547 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 01:54:23.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:54:23.910 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [546] milliseconds
+16-Nov-2024 01:54:23.958 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 01:54:23.958 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 01:54:23.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 01:54:25.646 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 01:54:25.646 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 01:54:25.646 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 01:54:25.718 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 01:54:25.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,819] ms
+16-Nov-2024 01:54:25.794 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:54:25.820 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1907] milliseconds
+16-Nov-2024 01:55:18.416 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:55:18.423 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 01:55:18.433 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:55:18.451 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:58:06.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 01:58:06.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 01:58:06.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 01:58:06.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 01:58:06.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 01:58:06.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 01:58:06.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 01:58:06.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 01:58:06.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 01:58:06.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:58:06.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:58:06.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 01:58:06.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 01:58:06.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 01:58:06.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 01:58:06.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 01:58:06.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:58:06.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:58:06.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 01:58:06.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 01:58:06.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 01:58:06.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55543:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 01:58:06.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 01:58:06.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 01:58:06.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 01:58:06.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 01:58:06.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 01:58:06.811 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:58:06.827 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [479] milliseconds
+16-Nov-2024 01:58:06.867 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 01:58:06.868 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 01:58:06.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 01:58:08.449 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 01:58:08.449 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 01:58:08.449 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 01:58:08.513 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 01:58:08.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,696] ms
+16-Nov-2024 01:58:08.575 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:58:08.597 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1768] milliseconds
+16-Nov-2024 01:58:30.330 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:58:30.336 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 01:58:30.346 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:58:30.354 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:04.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 01:59:04.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 01:59:04.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 01:59:04.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 01:59:04.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 01:59:04.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 01:59:04.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 01:59:04.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 01:59:04.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 01:59:04.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:59:04.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55565:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 01:59:04.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 01:59:04.291 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 01:59:04.296 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 01:59:04.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:04.595 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [480] milliseconds
+16-Nov-2024 01:59:04.643 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 01:59:04.643 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 01:59:04.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 01:59:06.384 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 01:59:06.384 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 01:59:06.384 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 01:59:06.447 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 01:59:06.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,862] ms
+16-Nov-2024 01:59:06.517 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:06.540 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1944] milliseconds
+16-Nov-2024 01:59:33.601 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:33.606 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 01:59:33.612 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebPersonalFinal] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2024 01:59:33.612 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebPersonalFinal] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 01:59:33.617 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:33.637 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:46.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 01:59:46.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 01:59:46.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 01:59:46.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 01:59:46.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 01:59:46.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 01:59:46.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 01:59:46.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 01:59:46.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 01:59:46.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:59:46.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:59:46.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 01:59:46.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 01:59:46.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 01:59:46.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 01:59:46.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 01:59:46.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 01:59:46.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 01:59:46.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 01:59:46.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 01:59:46.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 01:59:46.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55582:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 01:59:46.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 01:59:46.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 01:59:46.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 01:59:46.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 01:59:46.322 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 01:59:46.632 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:46.652 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [518] milliseconds
+16-Nov-2024 01:59:46.715 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 01:59:46.715 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 01:59:46.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 01:59:48.390 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 01:59:48.391 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 01:59:48.391 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 01:59:48.454 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 01:59:48.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,787] ms
+16-Nov-2024 01:59:48.520 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 01:59:48.542 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1888] milliseconds
+16-Nov-2024 02:00:04.855 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:00:04.860 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 02:00:04.866 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebPersonalFinal] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2024 02:00:04.866 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebPersonalFinal] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 02:00:04.872 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:00:04.879 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 02:00:04.880 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 02:00:04.882 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:00:35.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 02:00:35.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 02:00:35.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 02:00:35.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 02:00:35.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 02:00:35.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 02:00:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 02:00:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 02:00:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 02:00:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:00:35.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:00:35.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 02:00:35.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 02:00:35.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 02:00:35.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 02:00:35.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55596:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 02:00:35.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 02:00:35.545 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 02:00:35.551 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 02:00:35.854 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:00:35.868 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [497] milliseconds
+16-Nov-2024 02:00:35.913 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 02:00:35.914 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 02:00:35.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 02:00:37.520 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 02:00:37.520 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 02:00:37.520 WARNING [main] java.util.ArrayList.forEach Name = JDBC_Ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 02:00:37.585 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 02:00:37.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,727] ms
+16-Nov-2024 02:00:37.653 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:00:37.674 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1804] milliseconds
+16-Nov-2024 02:01:03.314 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:01:03.321 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 02:01:03.330 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:01:03.333 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:08:43.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 02:08:43.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:08:43.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:08:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 02:08:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 02:08:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 02:08:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55968:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 02:08:43.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 02:08:43.197 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 02:08:43.201 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 02:08:43.489 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:08:43.504 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [480] milliseconds
+16-Nov-2024 02:08:43.544 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 02:08:43.544 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 02:08:43.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 02:08:45.263 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 02:08:45.264 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 02:08:45.264 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 02:08:45.329 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 02:08:45.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,836] ms
+16-Nov-2024 02:08:45.391 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:08:45.412 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1906] milliseconds
+16-Nov-2024 02:09:15.176 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:09:15.182 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 02:09:15.190 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebPersonalFinal] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2024 02:09:15.190 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebPersonalFinal] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 02:09:15.194 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:09:15.199 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:09:27.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 02:09:27.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 02:09:27.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 02:09:27.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 02:09:27.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 02:09:27.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 02:09:27.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 02:09:27.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 02:09:27.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 02:09:27.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:09:27.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:09:27.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 02:09:27.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 02:09:27.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=55989:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 02:09:27.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 02:09:27.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 02:09:27.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 02:09:27.901 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:09:27.918 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [478] milliseconds
+16-Nov-2024 02:09:27.969 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 02:09:27.970 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 02:09:27.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 02:09:29.564 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 02:09:29.564 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 02:09:29.564 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 02:09:29.636 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 02:09:29.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,721] ms
+16-Nov-2024 02:09:29.705 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:09:29.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1804] milliseconds
+16-Nov-2024 02:09:57.366 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:09:57.372 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 02:09:57.381 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:09:57.391 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:11:59.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 02:11:59.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 02:11:59.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:11:59.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:11:59.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 02:11:59.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 02:11:59.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 02:11:59.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 02:11:59.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=56071:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 02:11:59.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 02:11:59.136 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 02:11:59.140 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 02:11:59.441 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:11:59.459 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [500] milliseconds
+16-Nov-2024 02:11:59.505 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 02:11:59.505 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 02:11:59.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 02:12:01.381 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 02:12:01.381 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 02:12:01.381 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 02:12:01.467 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 02:12:01.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [2,016] ms
+16-Nov-2024 02:12:01.537 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:12:01.556 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2096] milliseconds
+16-Nov-2024 02:12:42.209 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:12:42.213 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 02:12:42.221 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:12:42.224 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:12:44.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 02:12:44.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 02:12:44.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:12:44.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=56108:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 02:12:44.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 02:12:44.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 02:12:44.635 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 02:12:44.914 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:12:44.936 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [474] milliseconds
+16-Nov-2024 02:12:44.973 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 02:12:44.973 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 02:12:44.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 02:12:46.597 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 02:12:46.597 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 02:12:46.597 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 02:12:46.657 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 02:12:46.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [1,732] ms
+16-Nov-2024 02:12:46.718 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:12:46.740 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1802] milliseconds
+16-Nov-2024 02:12:59.737 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: emailListPU]
+16-Nov-2024 02:12:59.852 INFO [http-nio-8080-exec-5] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 7.0.0.Alpha3
+16-Nov-2024 02:13:00.660 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+16-Nov-2024 02:13:00.667 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+16-Nov-2024 02:13:00.668 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/JDBC_Ch11]
+16-Nov-2024 02:13:00.668 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {password=****, user=root}
+16-Nov-2024 02:13:00.668 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+16-Nov-2024 02:13:01.433 INFO [http-nio-8080-exec-5] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+16-Nov-2024 02:13:03.391 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16-Nov-2024 02:13:03.432 INFO [http-nio-8080-exec-5] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@518308b1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16-Nov-2024 02:13:03.463 WARN [http-nio-8080-exec-5] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl.handleException GenerationTarget encountered exception accepting command : Error executing DDL "create table User (email varchar(255) not null, firstName varchar(255), lastName varchar(255), primary key (email)) engine=InnoDB" via JDBC [Table 'user' already exists]
+	org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table User (email varchar(255) not null, firstName varchar(255), lastName varchar(255), primary key (email)) engine=InnoDB" via JDBC [Table 'user' already exists]
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+		at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233)
+		at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217)
+		at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:428)
+		at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:344)
+		at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:239)
+		at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:172)
+		at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:142)
+		at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:118)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:211)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+		at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+		at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+		at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+		at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+		at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323)
+		at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:449)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1504)
+		at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:59)
+		at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:90)
+		at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:66)
+		at JPA.DBUtil.buildEntityManagerFactory(DBUtil.java:11)
+		at JPA.DBUtil.<clinit>(DBUtil.java:7)
+		at JPA.UserDB.selectUser(UserDB.java:52)
+		at JPA.UserDB.emailExists(UserDB.java:68)
+		at JPA.emailList.doPost(emailList.java:33)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: java.sql.SQLSyntaxErrorException: Table 'user' already exists
+		at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+		at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+		at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+		at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+		at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+		... 49 more
+16-Nov-2024 02:14:59.948 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:14:59.958 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 02:14:59.962 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebPersonalFinal] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2024 02:14:59.962 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebPersonalFinal] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 02:14:59.962 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebPersonalFinal] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 02:14:59.971 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:14:59.993 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:49:37.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.26
+16-Nov-2024 02:49:37.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 7 2024 21:02:13 UTC
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.26.0
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\AN CUTE\.jdks\openjdk-22.0.2
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:49:37.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:49:37.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2024 02:49:37.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2024 02:49:37.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\UTE_Huhu\HK1-2025\WEB\TomCat\apache-tomcat-10.1.26
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\temp
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\logging.properties
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=57229:E:\Program\Intellij\IntelliJ IDEA 2024.2.1\bin
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+16-Nov-2024 02:49:37.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+16-Nov-2024 02:49:37.497 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Nov-2024 02:49:37.501 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Nov-2024 02:49:37.796 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:49:37.809 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [486] milliseconds
+16-Nov-2024 02:49:37.846 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2024 02:49:37.846 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.26]
+16-Nov-2024 02:49:37.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml]
+16-Nov-2024 02:49:39.791 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+16-Nov-2024 02:49:39.791 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+16-Nov-2024 02:49:39.791 WARNING [main] java.util.ArrayList.forEach Name = jdbc_ch11 Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is PT-0.001S. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-Nov-2024 02:49:39.910 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2024 02:49:39.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\UTE_Huhu\HK1-2025\WEB\WebPersonalFinal\conf\Catalina\localhost\WebPersonalFinal.xml] has finished in [2,136] ms
+16-Nov-2024 02:49:39.996 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:49:40.023 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2211] milliseconds
+16-Nov-2024 02:51:00.274 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:51:00.280 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2024 02:51:00.286 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebPersonalFinal] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2024 02:51:00.287 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebPersonalFinal] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+16-Nov-2024 02:51:00.288 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2024 02:51:00.301 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

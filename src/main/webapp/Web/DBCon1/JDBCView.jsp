@@ -9,7 +9,7 @@
 </c:if>
 
 <h1>The SQL Gateway</h1>
-<p>Enter and SQL statement and click the Execute button.</p>
+<p>Enter an SQL statement and click the Execute button.</p>
 <p><b>SQL statement:</b></p>
 
 <form action="SQLGateway" method="get">
