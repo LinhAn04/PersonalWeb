@@ -105,11 +105,23 @@ nav ul li a:hover {
     font-size: 1.2em;
 }
 
-.btnMyProjects, .btnProject {
+.btnProject {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
     background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnMyProjects{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: linear-gradient(to right, rgba(211, 23, 102, 0.61) 0%, rgba(67, 59, 228, 0.65) 100%);
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -122,11 +134,23 @@ nav ul li a:hover {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
+}
+
+.info-item {
+    display: flex;
+    align-items: center; /* Vertically aligns the text and image */
+    justify-content: left; /* Horizontally centers the text and image */
+}
+
+.info-item img {
+    margin-right: 10px; /* Adds space between image and text */
+    width: 24px; /* Adjust the image size as necessary */
+    height: 24px; /* Adjust the image size as necessary */
 }
 
 section {
@@ -169,12 +193,53 @@ form label {
     margin: 10px 0 5px;
 }
 
+/*footer {*/
+/*    background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);*/
+/*    color: #fff;*/
+/*    text-align: left;*/
+/*    padding: 10px;*/
+/*}*/
+
 footer {
     background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     color: #fff;
-    text-align: left;
-    padding: 10px;
+    text-align: center; /* Center-align footer content */
+    padding: 20px 0; /* Add more padding */
 }
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+footer .social-icons a {
+    color: #fff;
+    font-size: 1.5em; /* Adjust icon size */
+    transition: transform 0.3s, color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #87CEFA; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+footer .social-icons img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.1); /* Slightly enlarge images on hover */
+}
+
+/**/
 
 .ConcludeText {
     margin-left: 30px;
@@ -209,5 +274,74 @@ img {
     .projectEx {
         width: 90%;
         height: auto;
+    }
+}
+
+.headerBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("image/pic4.jpg");
+    z-index: 1000; /* Đảm bảo menu nằm trên các phần tử khác */
+    padding: 10px 0;
+}
+
+.headerBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.headerBar ul li {
+    margin: 0 15px;
+}
+
+.headerBar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.headerBar ul li a:hover {
+    color: #87CEFA;
+}
+
+/* Gradient Text */
+.text-gradient {
+    background: linear-gradient(to right, #ec77ab, #7873f5); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem; /* Adjust font size as needed */
+}
+
+/* Typewriter Effect */
+.typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures text does not overflow */
+    border-right: 0.15em solid #7873f5; /* Cursor-like effect */
+    white-space: nowrap;
+    animation: typing 4s steps(30) 1s forwards, blink 0.75s step-end infinite;
+}
+
+/* Typewriter animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Cursor blink effect */
+@keyframes blink {
+    50% {
+        border-color: transparent;
     }
 }
