@@ -3,61 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Linh An's Homepage</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Web/webView.css">
 </head>
 <body>
-<header id="home">
+<header id="home" class="bg-light">
     <nav class="headerBar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#footer">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
         </ul>
     </nav>
-    <div class="hero">
+    <!-- Hero Section -->
+    <div class="hero text-center">
         <h1>WELCOME TO MY PORTFOLIO!!!!</h1>
         <p>Hi, I'm Linh An. I love to make new friends.</p>
         <a href="#allMyProject"><button class="btnMyProjects">My Web exercises</button></a>
     </div>
 </header>
 
-<section id="about">
-    <nav class="container">
+<section id="about" class="py-5">
+    <nav class="container d-flex align-items-center">
         <img src="Web/image/me.png" alt="Linh An" class="MyPic">
         <div>
-            <h2 class="text-gradient typewriter">Little things about me</h2><br>
+            <h2 class="text-gradient typewriter"></h2><br>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const typewriterElement = document.querySelector('.typewriter');
+                    const textArray = ["Little things about me", "I love coding", "Welcome to my portfolio"];
+                    let textIndex = 0;
+                    let charIndex = 0;
+                    let isDeleting = false;
+
+                    const type = () => {
+                        const currentText = textArray[textIndex];
+                        // Cập nhật nội dung với dấu nháy luôn đi cùng
+                        typewriterElement.innerHTML = `<span>${currentText.substring(0, charIndex)}</span>`;
+
+                        if (!isDeleting && charIndex === currentText.length) {
+                            // Dừng khi hoàn thành viết xong chữ
+                            isDeleting = true;
+                            setTimeout(type, 3000); // Dừng 3 giây
+                        } else if (isDeleting && charIndex === 0) {
+                            // Chuyển sang từ mới
+                            isDeleting = false;
+                            textIndex = (textIndex + 1) % textArray.length;
+                            setTimeout(type, 1500); // Dừng 1.5 giây trước khi bắt đầu từ mới
+                        } else {
+                            // Tăng hoặc giảm chỉ số ký tự
+                            charIndex += isDeleting ? -1 : 1;
+                            setTimeout(type, isDeleting ? 50 : 100); // Tốc độ xóa/viết
+                        }
+                    };
+                    type();
+                });
+            </script>
+
 
             <label class="info-item">
                 <img src="Web/image/fullname.png" alt="Full Name">
                 <strong>Full Name: </strong> Lê Hoàng Linh An
             </label><br>
-
             <label class="info-item">
                 <img src="Web/image/id.png" alt="ID">
                 <strong>ID: </strong> 22110094
             </label><br>
-
             <label class="info-item">
                 <img src="Web/image/class1.png" alt="Class">
                 <strong>Class: </strong> 22110CL2B
             </label><br>
-
             <label class="info-item">
                 <img src="Web/image/cake.png" alt="Date of Birth">
                 <strong>DoB: </strong> 01/10/2004
             </label><br>
-
             <label class="info-item">
                 <img src="Web/image/major.png" alt="Major">
                 <strong>Major: </strong> Information Technology
             </label><br>
-
             <label class="info-item">
                 <img src="Web/image/phone1.png" alt="Phone Number">
                 <strong>Phone Number: </strong> +84 994 83 xxx
             </label><br>
-
             <label class="info-item">
                 <img src="Web/image/mail.png" alt="Email">
                 <strong>E-Mail:</strong> 22110094@student.hcmute.edu.vn
@@ -66,7 +96,7 @@
     </nav>
 </section>
 
-<section id="allMyProject">
+<section id="allMyProject" class="py-5">
     <div  class="project">
         <div class="projectEx">
             <h2>Email</h2>
@@ -143,44 +173,25 @@
     </div>
 </section>
 
-<!--<footer id="footer">-->
-<!--    <p class="ConcludeText">Don't be shy contacting with me!</p>-->
-<!--    <div>-->
-<!--        <a href="https://www.facebook.com/linh.rilakkuma/" target="_blank">-->
-<!--            <img class="logoFace" src="Web/image/face.png">-->
-<!--        </a>-->
-<!--        <a href="https://www.instagram.com/la_lost_angle/?hl=vi" target="_blank">-->
-<!--            <img class="logoInsta" src="Web/image/instagram.png">-->
-<!--        </a>-->
-<!--        &lt;!&ndash;Dang nhap twitter roi lay link nha&ndash;&gt;-->
-<!--        <a href="" target="_blank">-->
-<!--            <img class="logoTwitter" src="Web/image/twitter.png">-->
-<!--        </a>-->
-<!--        &lt;!&ndash;Thay icon cai nay bang zalo&ndash;&gt;-->
-<!--        <a href="http://zaloapp.com/qr/p/1duosbgmxoj28" target="_blank">-->
-<!--            <img class="logoZalo" src="Web/image/phone.png">-->
-<!--        </a>-->
-<!--    </div>-->
-<!--    <p></p>-->
-<!--</footer>-->
-<footer id="footer">
+<footer id="footer" class="text-center py-4">
     <p class="ConcludeText">Don't be shy contacting with me!</p>
-    <div class="social-icons">
+    <div class="social-icons d-flex justify-content-center gap-3">
         <a href="https://www.facebook.com/linh.rilakkuma/" target="_blank">
             <img class="logoFace" src="Web/image/face.png" alt="Facebook">
         </a>
         <a href="https://www.instagram.com/la_lost_angle/?hl=vi" target="_blank">
             <img class="logoInsta" src="Web/image/instagram.png" alt="Instagram">
         </a>
-        <!-- Twitter link -->
         <a href="" target="_blank">
             <img class="logoTwitter" src="Web/image/twitter.png" alt="Twitter">
         </a>
-        <!-- Zalo link -->
         <a href="http://zaloapp.com/qr/p/1duosbgmxoj28" target="_blank">
             <img class="logoZalo" src="Web/image/phone.png" alt="Zalo">
         </a>
     </div>
 </footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

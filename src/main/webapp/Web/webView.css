@@ -68,6 +68,33 @@ header, .headerBar {
     font-size: 1.2em;
 }
 
+/* Gradient Text */
+.text-gradient {
+    background: linear-gradient(to right, #ec77ab, #7873f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    overflow: visible;
+}
+
+/* Typewriter Effect */
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 0.15em solid #7873f5;
+    white-space: nowrap;
+    animation: typing 4s steps(30) 1s forwards, blink 0.75s step-end infinite;
+    height: 4rem;
+    line-height: 1.5;
+}
+
+#about {
+    padding-top: 20px;
+    margin-top: -55px;
+}
+
 /* Project Section */
 .project {
     display: flex;
@@ -244,32 +271,6 @@ img {
     width: 40px;
     height: auto;
     margin-left: 20px;
-}
-
-/* Gradient Text */
-.text-gradient {
-    background: linear-gradient(to right, #ec77ab, #7873f5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.5rem;
-}
-
-/* Typewriter Effect */
-.typewriter {
-    display: inline-block;
-    overflow: hidden;
-    border-right: 0.15em solid #7873f5;
-    white-space: nowrap;
-    animation: typing 4s steps(30) 1s forwards, blink 0.75s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-@keyframes blink {
-    50% { border-color: transparent; }
 }
 
 /* Media Queries */
