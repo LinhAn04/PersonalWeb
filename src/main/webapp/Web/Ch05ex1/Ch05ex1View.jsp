@@ -16,7 +16,6 @@
 <form action="Ch05ex1" method="get">
   <input type="hidden" name="action" value="add">
   <label>Email:</label>
-  <%--  Có "require thì tự động bắt buộc phải điền field đó--%>
   <input type="email" name="email" required><br>
   <label>First Name:</label>
   <input type="text" name="firstName" required><br>
@@ -25,5 +24,10 @@
   <label>&nbsp;</label>
   <input class="button" type="submit" value="Join Now" id="submit">
 </form>
+
+<form action="returnHome" method="get">
+  <input class="btnHome" type="submit" value="Return Home" id="home">
+</form>
+
 </body>
 </html>

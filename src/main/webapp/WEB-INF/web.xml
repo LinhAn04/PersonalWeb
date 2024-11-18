@@ -110,7 +110,17 @@
         <servlet-name>CartExercise</servlet-name>
         <url-pattern>/cart-exercise</url-pattern>
     </servlet-mapping>
+    <!--Home-->
+    <servlet>
+        <servlet-name>ReturnHome</servlet-name>
+        <servlet-class>Home.ReturnHomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnHome</servlet-name>
+        <url-pattern>/returnHome</url-pattern>
+    </servlet-mapping>
 
+    <!--error-->
     <error-page>
         <error-code>405</error-code>
         <location>/Web/error_405.jsp</location>
@@ -124,6 +134,7 @@
         <location>/Web/error_500.jsp</location>
     </error-page>
 
+    <!--Welcome page-->
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>
