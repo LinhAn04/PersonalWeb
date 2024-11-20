@@ -27,6 +27,7 @@
                            value="<c:out value='${item.product.code}'/>">
                     <input type="text" name="quantity"
                            value="<c:out value='${item.quantity}'/>" id="quantity">
+                    <input type="hidden" name="action" value="updateCart">
                     <input type="submit" value="Update">
                 </form>
             </td>

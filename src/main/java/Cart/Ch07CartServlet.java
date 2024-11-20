@@ -3,7 +3,6 @@ package Cart;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -39,6 +38,8 @@ public class Ch07CartServlet extends HttpServlet {
             // Kiểm tra nếu productCode là null hoặc rỗng
             if (productCode == null || productCode.trim().isEmpty()) {
                 // Xử lý khi productCode không hợp lệ (có thể thông báo lỗi)
+
+                // Catch exception vứt ra giao diện đi nha
                 System.out.println("Mã sản phẩm không hợp lệ!");
                 // Quay lại trang giỏ hàng
                 url = "/Web/Cart/Ch07CartView.jsp";
@@ -84,7 +85,7 @@ public class Ch07CartServlet extends HttpServlet {
                     lineItem.setProduct(product);
                     lineItem.setQuantity(quantity);
                     if(quantity > 0){
-                        cart.addItem(lineItem);
+                        cart.addItem(lineItem, false);
                     } else if (quantity == 0) {
                         cart.removeItem(lineItem);
                     }
@@ -95,6 +96,41 @@ public class Ch07CartServlet extends HttpServlet {
                     url = "/Web/Cart/Ch07CartInfor.jsp";
                 }
             }
+        }
+        if (action.equals("updateCart")) {
+            String productCode = req.getParameter("productCode");
+            String quantityString = req.getParameter("quantity");
+
+            HttpSession session = req.getSession();
+            Cart cart = (Cart) session.getAttribute("cart");
+            if (cart == null) {
+                cart = new Cart();
+            }
+
+            int quantity;
+            try {
+                quantity = Integer.parseInt(quantityString);
+                if (quantity < 0) {
+                    quantity = 1; // Đặt mặc định nếu số lượng không hợp lệ
+                }
+            } catch (NumberFormatException nfe) {
+                quantity = 1;
+            }
+
+            String path = sc.getRealPath("/Web/Cart/products.txt");
+            Product product = ProductIO.getProduct(productCode, path);
+
+            if (product != null) {
+                LineItem lineItem = new LineItem();
+                lineItem.setProduct(product);
+                lineItem.setQuantity(quantity);
+
+                // Gọi addItem với isUpdate = true để ghi đè số lượng
+                cart.addItem(lineItem, true);
+            }
+
+            session.setAttribute("cart", cart);
+            url = "/Web/Cart/Ch07CartInfor.jsp";
         }
         else if (action.equals("checkout")) {
             url = "/Web/Cart/Ch07CartCheckout.jsp";
