@@ -59,10 +59,11 @@
 
 <form action="" method="post">
     <input type="hidden" name="action" value="checkout">
+    <label for="email">Enter your email for confirmation:</label>
+    <input type="email" name="email" id="email" required placeholder="example@email.com">
     <input type="submit" value="Check out">
-    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
 </form>
-
+<input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
 <script>
     function returnHome() {
         // Chuyển hướng về trang chủ mà không kiểm tra form
