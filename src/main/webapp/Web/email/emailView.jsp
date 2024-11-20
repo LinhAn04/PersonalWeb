@@ -22,6 +22,16 @@
 
     <label>&nbsp;</label>
     <input type="submit" value="Join Now" id="submit">
+
+    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()">
 </form>
+
+<script>
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
+</script>
+
 </body>
 </html>

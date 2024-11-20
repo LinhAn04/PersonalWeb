@@ -44,8 +44,6 @@ public class Ch07CartServlet extends HttpServlet {
                 // Quay lại trang giỏ hàng
                 url = "/Web/Cart/Ch07CartView.jsp";
             } else {
-                System.out.println(productCode);
-                System.out.println(quantityString);
 
                 HttpSession session = req.getSession();
                 Cart cart;

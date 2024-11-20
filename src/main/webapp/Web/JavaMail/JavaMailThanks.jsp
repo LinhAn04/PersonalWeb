@@ -21,5 +21,10 @@
   <input type="submit" value="Return">
 </form>
 </body>
+
+<form action="returnHome" method="get">
+  <input class="btnHome" type="submit" value="Return Home" id="home">
+</form>
+
 <%@include file="include/footer.jsp"%>
 </html>

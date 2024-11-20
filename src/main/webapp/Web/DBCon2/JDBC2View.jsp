@@ -17,6 +17,11 @@
   <label>&nbsp</label>
   <input type="submit" value="Join Now"><br>
 </form>
+
+<form action="returnHome" method="get">
+  <input class="btnHome" type="submit" value="Return Home" id="home">
+</form>
+
 </body>
 <%@include file="include/footer.jsp"%>
 </html>

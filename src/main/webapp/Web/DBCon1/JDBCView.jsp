@@ -21,6 +21,11 @@
 
 <p><b>SQL result:</b></p>
 ${sqlResult}
+
+<form action="returnHome" method="get">
+  <input class="btnHome" type="submit" value="Return Home" id="home">
+</form>
+
 </body>
 <%@include file="include/footer.jsp"%>
 </html>

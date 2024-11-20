@@ -37,3 +37,17 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background: linear-gradient(90deg, #12ab97, #111);
 }
+
+.btnHome{
+    padding: 8px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%) !important;
+    margin-left: 0.5em !important;
+    margin-top: 10px !important;
+}
+
+.btnHome:hover{
+    background: linear-gradient(to right, #7873f5 0%, #111111  100%) !important;
+}

@@ -45,5 +45,9 @@
     }
 </script>
 
+<form action="returnHome" method="get">
+    <input class="btnHome" type="submit" value="Return Home" id="home">
+</form>
+
 </body>
 </html>

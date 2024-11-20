@@ -24,7 +24,17 @@
 <form action="" method="post">
   <input type="hidden" name="action" value="join">
   <input type="submit" value="Return">
+
+  <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()">
+
 </form>
+
+<script>
+  function returnHome() {
+    // Chuyển hướng về trang chủ mà không kiểm tra form
+    window.location.href = 'returnHome';
+  }
+</script>
 
 </body>
 </html>
