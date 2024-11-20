@@ -31,9 +31,6 @@ public class Ch06ex2Servlet extends HttpServlet {
             String heardfrom = req.getParameter("heardfrom");
             String update = req.getParameter("Update");
             String contactvia = req.getParameter("contactvia");
-
-            System.out.println( heardfrom + " " + update + " " + contactvia);
-
             //Lưu lại dữ liệu
             EmailUserCh06ex2 user =
                     new EmailUserCh06ex2(firstName, lastName, email,

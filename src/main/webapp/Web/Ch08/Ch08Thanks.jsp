@@ -18,8 +18,9 @@
     below.</p>
 
 <form action="Ch08ex1" method="post">
-    <input type="hidden" name="action" value="join">
-    <input type="submit" value="Return">
+    <input type="hidden" name="action" value="Join now">
+    <input class=button type="submit" value="Return">
+    <input class="btnHome" type="button" value="Return Home" onclick="returnHome()">
 </form>
 </body>
 <c:if test="${not empty sessionScope.users}">
@@ -31,9 +32,11 @@
 </c:if>
 <p>Customer Service Email: ${initParam.custServEmail}</p>
 
-<form action="returnHome" method="get">
-    <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
-
+<script>
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
+</script>
 <%@include file="include/footer.jsp"%>
 </html>

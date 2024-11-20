@@ -16,15 +16,19 @@
   <textarea name="sqlStatement" cols="60" rows="8">
     ${sqlStatement}
   </textarea>
-  <input type="submit" value="Execute">
+  <input class="button" type="submit" value="Execute">
+  <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
 </form>
+
+<script>
+  function returnHome() {
+    // Chuyển hướng về trang chủ mà không kiểm tra form
+    window.location.href = 'returnHome';
+  }
+</script>
 
 <p><b>SQL result:</b></p>
 ${sqlResult}
-
-<form action="returnHome" method="get">
-  <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
 
 </body>
 <%@include file="include/footer.jsp"%>

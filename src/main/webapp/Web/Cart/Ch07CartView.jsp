@@ -48,5 +48,12 @@
     </tr>
   </table>
 </body>
+<input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
+<script>
+  function returnHome() {
+    // Chuyển hướng về trang chủ mà không kiểm tra form
+    window.location.href = 'returnHome';
+  }
+</script>
 <%@include file="include/footer.jsp"%>
 </html>

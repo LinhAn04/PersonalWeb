@@ -28,8 +28,8 @@
 </script>
 
 <form id="myForm" action="">
-    <label for="method">Choose method:</label>
-    <select id="method" name="method" onchange="setFormMethod()">
+    <label class="lmethod" for="method">Choose method:</label>
+    <select class="option" id="method" name="method" onchange="setFormMethod()">
         <option value="GET">GET</option>
         <option value="POST">POST</option>
     </select>
@@ -37,6 +37,8 @@
     <input type="hidden" name="action" value="join">
     <input type="hidden" name="myExercise" value="Ch05ex2View">
     <input class="button" type="submit" value="Return">
+
+    <input class="btnHome" type="button" value="Return Home" onclick="returnHome()">
 </form>
 
 <script>
@@ -45,11 +47,11 @@
         var method = document.getElementById("method").value;
         form.method = method;  // Cập nhật phương thức của form
     }
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
 </script>
-
-<form action="returnHome" method="get">
-    <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
 
 </body>
 <%@include file="include/footer.jsp"%>

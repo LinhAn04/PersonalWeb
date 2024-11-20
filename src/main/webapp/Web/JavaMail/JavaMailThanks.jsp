@@ -18,13 +18,15 @@
 
 <form action="${pageContext.request.contextPath}/JavaMail" method="post">
   <input type="hidden" name="action" value="join">
-  <input type="submit" value="Return">
+  <input class="button" type="submit" value="Return">
+  <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
 </form>
 </body>
-
-<form action="returnHome" method="get">
-  <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
-
+<script>
+  function returnHome() {
+    // Chuyển hướng về trang chủ mà không kiểm tra form
+    window.location.href = 'returnHome';
+  }
+</script>
 <%@include file="include/footer.jsp"%>
 </html>

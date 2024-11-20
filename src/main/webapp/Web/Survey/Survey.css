@@ -38,7 +38,7 @@ body{
 input[type="submit"] {
     background-color: #6586E6; /* Màu nền */
     color: white; /* Màu chữ */
-    padding: 10px 20px; /* Khoảng cách bên trong */
+    padding: 8px 10px; /* Khoảng cách bên trong */
     border: none; /* Bỏ viền */
     border-radius: 5px; /* Bo góc */
     cursor: pointer; /* Con trỏ chuột thành dạng pointer */
@@ -94,3 +94,17 @@ br {
     height: 70px;
 }
 
+#home{
+    font-family: 'Comic Sans MS', Helvetica, sans-serif;
+    padding: 8px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    margin-left: 0.5em;
+    margin-top: 10px;
+}
+
+#home:hover{
+    background: linear-gradient(to right, #7873f5 0%, #111111  100%) !important;
+}

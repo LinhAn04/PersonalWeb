@@ -15,13 +15,15 @@
   <label class="pad_top">Last name:</label>
   <input type="text" name="lastName" value="${user.lastName}" required><br>
   <label>&nbsp</label>
-  <input type="submit" value="Join Now"><br>
+  <input class="button" type="submit" value="Join Now">
+  <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
 </form>
 </body>
-
-<form action="returnHome" method="get">
-  <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
-
+<script>
+  function returnHome() {
+    // Chuyển hướng về trang chủ mà không kiểm tra form
+    window.location.href = 'returnHome';
+  }
+</script>
 <%@include file="include/footer.jsp"%>
 </html>

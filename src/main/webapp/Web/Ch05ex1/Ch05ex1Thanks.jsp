@@ -30,11 +30,16 @@
 <form action="${pageContext.request.contextPath}/Ch05ex1" method="post">
     <input type="hidden" name="action" value="join">
     <input class="button" type="submit" value="Return">
+
+    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()">
 </form>
 
-<form action="returnHome" method="get">
-    <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
+<script>
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
+</script>
 
 </body>
 </html>

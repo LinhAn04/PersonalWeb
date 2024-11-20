@@ -18,13 +18,15 @@
     <input type="text" name="lastName" required><br>
     <input type="hidden" name="action" value="add">
 
-    <label for="method">Choose method:</label>
+    <label class="lmethod" for="method">Choose method:</label>
     <select id="method" name="method" onchange="setFormMethod()">
         <option value="GET">GET</option>
         <option value="POST">POST</option>
     </select>
 
     <button class="button" type="submit">Submit</button>
+
+    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()">
 </form>
 
 <script>
@@ -33,13 +35,14 @@
         var method = document.getElementById("method").value;
         form.method = method;  // Cập nhật phương thức của form
     }
+
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
 </script>
 
-<form action="returnHome" method="get">
-    <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
-
 </body>
-<%@include file="include/footer.jsp"%>
+<%@include file="include/footer.jsp" %>
 </html>
 

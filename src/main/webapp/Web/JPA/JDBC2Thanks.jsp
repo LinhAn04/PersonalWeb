@@ -31,11 +31,13 @@
     <input type="hidden" name="action" value="join">
     <input type="hidden" name="myExercise" value="Ch05ex1View">
     <input class="button" type="submit" value="Return">
+    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
 </form>
-
-<form action="returnHome" method="get">
-    <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
-
+<script>
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
+</script>
 </body>
 </html>

@@ -67,7 +67,18 @@
     </select>
     <br><br>
     <input type="submit" value="Submit">
+
+    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()">
+
   </form>
+
+  <script>
+    function returnHome() {
+      // Chuyển hướng về trang chủ mà không kiểm tra form
+      window.location.href = 'returnHome';
+    }
+  </script>
+
 </div>
 </body>
 </html>

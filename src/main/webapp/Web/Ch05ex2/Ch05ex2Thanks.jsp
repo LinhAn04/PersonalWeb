@@ -27,7 +27,7 @@
 </script>
 
 <form id="myForm" action="${pageContext.request.contextPath}/Ch05ex2">
-    <label for="method">Choose method:</label>
+    <label class="lmethod" for="method">Choose method:</label>
     <select id="method" name="method" onchange="setFormMethod()">
         <option value="GET">GET</option>
         <option value="POST">POST</option>
@@ -35,6 +35,8 @@
 
     <input type="hidden" name="action" value="join">
     <input class="button" type="submit" value="Return">
+
+    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()">
 </form>
 
 <script>
@@ -43,11 +45,11 @@
         var method = document.getElementById("method").value;
         form.method = method;  // Cập nhật phương thức của form
     }
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
 </script>
-
-<form action="returnHome" method="get">
-    <input class="btnHome" type="submit" value="Return Home" id="home">
-</form>
 
 </body>
 </html>

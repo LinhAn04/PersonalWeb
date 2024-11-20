@@ -23,8 +23,8 @@ br{
     clear: both;
 }
 .button, .btnHome{
-    padding: 8px 10px;
-    width: 120px;
+    padding: 8px;
+    width: 99px;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -40,11 +40,14 @@ br{
 }
 
 .btnHome{
-    background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
-    margin-left: 7em;
-    margin-top: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ec77ab 0%, #7873f5 100%) !important;
+    margin-left: 0.5em !important;
+    margin-top: 10px !important;
 }
 
 .btnHome:hover{
-    background: linear-gradient(to right, #7873f5 0%, #111111  100%);
+    background: linear-gradient(to right, #7873f5 0%, #111111  100%) !important;
 }

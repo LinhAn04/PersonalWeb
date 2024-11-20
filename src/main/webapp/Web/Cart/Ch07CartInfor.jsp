@@ -60,6 +60,15 @@
 <form action="" method="post">
     <input type="hidden" name="action" value="checkout">
     <input type="submit" value="Check out">
+    <input class="btnHome" type="button" value="Return Home" id="home" onclick="returnHome()"><br>
 </form>
+
+<script>
+    function returnHome() {
+        // Chuyển hướng về trang chủ mà không kiểm tra form
+        window.location.href = 'returnHome';
+    }
+</script>
+
 </body>
 </html>
